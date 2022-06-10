@@ -6,11 +6,13 @@ import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.*;
+import utilities.PropertyUtils;
 
 import java.io.File;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.URL;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import static utilities.PropertyUtils.readProp;
@@ -58,10 +60,11 @@ public class AndroidBase {
 
     public static AndroidDriver<AndroidElement> androidDriver(boolean useBrowser) throws IOException {
         //For android real device - DeviceName should be "Android"
+        Properties androidProp= PropertyUtils.readProperties("/src/resources/android.properties");
         File appDir = new File("src");
-        File appFile = new File(appDir, (String) readProp().get("application"));//"ApiDemos-debug.apk");
+        File appFile = new File(appDir, (String)androidProp.get("application"));//"ApiDemos-debug.apk");
         DesiredCapabilities cap = new DesiredCapabilities();
-        cap.setCapability(MobileCapabilityType.DEVICE_NAME, readProp().get("DEVICE_NAME"));
+        cap.setCapability(MobileCapabilityType.DEVICE_NAME, androidProp.get("DEVICE_NAME"));
         cap.setCapability(MobileCapabilityType.APP, appFile.getAbsolutePath());
         cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "uiautomator2");
         if(useBrowser==true){
