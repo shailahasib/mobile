@@ -5,13 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16e2ebf4-8ea0-4514-a034-9dceb479d420" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/generic/src/main/java/devicefactory/DeviceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generic/src/ApiDemos-debug.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generic/src/main/java/devicefactory/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generic/src/main/java/reportFactory/ReportFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generic/src/main/java/testListeners/TestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generic/src/main/java/utilities/DeviceProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generic/src/main/resources/browserstack.ios.config/parallel.conf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generic/src/main/resources/browserstack/android.config/parallel.conf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generic/src/main/resources/deviceProperties.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generic/src/main/resources/extent.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tr-otm-android/browerstack-runner/android.parallel.runner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tr-otm-android/local-runner/android.local.runner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tr-otm-android/src/main/java/pages/Preferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tr-otm-android/src/test/java/PreferencesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generic/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generic/src/main/java/android/AndroidBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/main/java/android/AndroidBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/src/main/java/devicefactory/DeviceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/main/java/devicefactory/DeviceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/src/main/java/ios/IOSBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/main/java/ios/IOSBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generic/src/main/java/utilities/PropertyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/main/java/utilities/PropertyUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/main/resources/android.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tr-otm-android/src/main/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/src/main/resources/android.properties" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/main/resources/android.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/target/classes/android/AndroidBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/generic/target/classes/android/AndroidBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/target/classes/ios/IOSBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/generic/target/classes/ios/IOSBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/generic/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tr-otm-ios/iostestrunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tr-otm-android/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tr-otm-android/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tr-otm-android/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/tr-otm-android/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tr-otm-android/src/test/java/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tr-otm-android/src/test/java/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tr-otm-android/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/tr-otm-android/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tr-otm-android/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/tr-otm-android/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tr-otm-android/target/tr-otm-android-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/tr-otm-android/target/tr-otm-android-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tr-otm-ios/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tr-otm-ios/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,18 +69,24 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/shailahasib/IdeaProjects/mobile-automation",
+    "last_opened_file_path": "/Users/shailahasib/IdeaProjects/mobile-automation/generic",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/generic/src/main/resources" />
-      <recent name="$PROJECT_DIR$/tr-otm-android/src/main/resources" />
+      <recent name="$PROJECT_DIR$/generic" />
+      <recent name="$PROJECT_DIR$/generic/src/main/resources/browserstack.ios.config" />
+      <recent name="$PROJECT_DIR$/tr-otm-android/browerstack-runner" />
+      <recent name="$PROJECT_DIR$/tr-otm-android" />
+      <recent name="$PROJECT_DIR$/tr-otm-android/src/main/resources/parallel-run" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tr-otm-android/local-runner" />
+      <recent name="$PROJECT_DIR$/generic/src/main/resources/browserstack/android" />
+      <recent name="$PROJECT_DIR$/tr-otm-ios" />
       <recent name="$PROJECT_DIR$/generic/src/main/resources" />
       <recent name="$PROJECT_DIR$/tr-otm-android/src/main/resources" />
     </key>
@@ -62,6 +94,58 @@
       <recent name="pages" />
       <recent name="utilities" />
     </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/shailahasib/IdeaProjects/mobile-automation/tr-otm-android/local-runner/android.local.runner.xml">
+    <configuration name="HomePageTest.prefClick" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tr-otm-android" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HomePageTest" />
+      <option name="METHOD_NAME" value="prefClick" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/shailahasib/IdeaProjects/mobile-automation/tr-otm-android/androidtestrunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tr-otm-android" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/tr-otm-android/androidtestrunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/shailahasib/IdeaProjects/mobile-automation/tr-otm-android/browerstack-runner/android.parallel.runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tr-otm-android" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/tr-otm-android/browerstack-runner/android.parallel.runner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/shailahasib/IdeaProjects/mobile-automation/tr-otm-android/local-runner/android.local.runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tr-otm-android" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/tr-otm-android/local-runner/android.local.runner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/shailahasib/IdeaProjects/mobile-automation/tr-otm-android/local-runner/android.local.runner.xml" />
+        <item itemvalue="TestNG./Users/shailahasib/IdeaProjects/mobile-automation/tr-otm-android/browerstack-runner/android.parallel.runner.xml" />
+        <item itemvalue="TestNG./Users/shailahasib/IdeaProjects/mobile-automation/tr-otm-android/androidtestrunner.xml" />
+        <item itemvalue="TestNG.HomePageTest.prefClick" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -84,5 +168,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/generic/src/main/java/devicefactory/TestBase.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/generic/src/main/java/devicefactory/TestBase.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

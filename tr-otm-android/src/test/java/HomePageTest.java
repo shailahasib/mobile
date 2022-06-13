@@ -1,10 +1,30 @@
+
+import android.AndroidBase;
+import devicefactory.TestBase;
+import io.appium.java_client.AppiumDriver;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 import pages.HomePage;
 
-public class HomePageTest {
+import java.io.IOException;
 
-    public void hpInstance() {
-        //HomePage hp = new HomePage(driver);
+public class HomePageTest extends TestBase {
 
+
+
+
+//    public HomePage instance() throws IOException {
+//        HomePage homePage = new HomePage(getDriver());
+//        return homePage;
+//    }
+
+
+
+
+    @Test
+    public void prefClick() throws IOException {
+        //instance().clickPref();
     }
 
 }

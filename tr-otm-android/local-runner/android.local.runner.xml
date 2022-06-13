@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" >
+    <test name="ParallelTestPixel3">
+        <parameter name="deviceType" value="android_app_emulator"></parameter>
+<!--        <parameter name="deviceIndex" value="0"/>-->
+        <classes>
+            <class name="HomePageTest"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,50 @@
+android_app_emulator:
+  deviceName: 'Emulator'
+  platformName: 'Android'
+  platformVersion: '12'
+  automationName: 'Appium'
+  avdLaunchTimeout: '60000'
+  adbExecTimeout: '20000'
+  autoWebView: 'false'
+  appActivity: 'io.appium.android.apis'
+  appPackage: 'ApiDemos-debug.apk'
+  URL: 'http://127.0.0.1:4723/wd/hub'
+
+android_app_realDevice:
+  #  To get real device name in Android
+  #	- Connect device via USB
+  #	- Terminal - adb devices
+  deviceName: 'RF8N30AX'
+  platformName: 'Android'
+  platformVersion: '12'
+  automationName: 'Appium'
+  avdLaunchTimeout: '60000'
+  adbExecTimeout: '20000'
+  autoWebView: 'false'
+  unlockType: 'pin'
+  unlockKey: '147234'
+  autoGrantPermission: 'true'
+  nativeWebScreenshot: 'true'
+  appActivity: 'io.appium.android.apis'
+  appPackage: 'ApiDemos-debug.apk'
+  url: 'http://127.0.0.1:4723/wd/hub'
+
+ios_app_iPhone11:
+  #  device name - About device in Setting
+  deviceName: 'iPhone 11'
+  platformVersion: '15.1'
+  platformName: 'iOS'
+  #  UDID - Finder
+  #  Plug your iPhone into your Mac using the USB cable.
+  #  Open Finder and select your iPhone in the sidebar.
+  #  Click on the text with the iPhone model, drive capacity, and battery information, and it will change to show the serial number, UDID, and model.
+  #  To copy the UDID, right click on the text and select "Copy UDID".
+  udid: ''
+  automationName: 'XCUITEST'
+  newCommandTimeout: '180'
+  #  Web view false for Native app
+  #  Web View true for Hybrid App
+  autoWebView: 'false'
+  xcodeOrgId: ''
+  xcodeSigningId: ''
+  bundleID: ''

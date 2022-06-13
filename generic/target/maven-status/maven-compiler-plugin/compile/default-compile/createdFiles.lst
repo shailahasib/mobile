@@ -1,2 +1,5 @@
+devicefactory/DeviceFactory.class
 ios/IOSBase.class
 android/AndroidBase.class
+utilities/PropertyUtils.class
+utilities/Reusable.class
