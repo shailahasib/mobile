@@ -5,13 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16e2ebf4-8ea0-4514-a034-9dceb479d420" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/generic/src/main/java/devicefactory/DeviceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generic/src/main/java/android/browserstackconfig/BrowserStackSetup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generic/src/main/java/devicefactory/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generic/src/main/resources/android.browserstack.config/parallel.conf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tr-otm-android/browerstack-runner/android.parallel.runner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tr-otm-android/local-runner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tr-otm-android/src/main/resources/ApiDemos-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generic/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generic/src/main/java/android/AndroidBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/main/java/android/AndroidBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/src/main/java/devicefactory/DeviceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/main/java/devicefactory/DeviceFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generic/src/main/java/utilities/PropertyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/main/java/utilities/PropertyUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/main/resources/android.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tr-otm-android/src/main/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/target/classes/android/AndroidBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/generic/target/classes/android/AndroidBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/target/classes/ios/IOSBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/generic/target/classes/ios/IOSBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tr-otm-android/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tr-otm-android/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tr-otm-android/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/tr-otm-android/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tr-otm-android/src/test/java/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tr-otm-android/src/test/java/HomePageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/shailahasib/IdeaProjects/mobile-automation",
+    "last_opened_file_path": "/Users/shailahasib/IdeaProjects/mobile-automation/tr-otm-android/src/main/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -51,8 +61,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/generic/src/main/resources" />
       <recent name="$PROJECT_DIR$/tr-otm-android/src/main/resources" />
+      <recent name="$PROJECT_DIR$/tr-otm-android" />
+      <recent name="$PROJECT_DIR$/generic/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/generic/src/main/resources" />
@@ -62,6 +73,34 @@
       <recent name="pages" />
       <recent name="utilities" />
     </key>
+  </component>
+  <component name="RunManager" selected="TestNG./Users/shailahasib/IdeaProjects/mobile-automation/tr-otm-android/local-runner.xml">
+    <configuration name="/Users/shailahasib/IdeaProjects/mobile-automation/tr-otm-android/browerstack-runner/android.parallel.runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tr-otm-android" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/tr-otm-android/browerstack-runner/android.parallel.runner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/shailahasib/IdeaProjects/mobile-automation/tr-otm-android/local-runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="tr-otm-android" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/tr-otm-android/local-runner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/shailahasib/IdeaProjects/mobile-automation/tr-otm-android/local-runner.xml" />
+        <item itemvalue="TestNG./Users/shailahasib/IdeaProjects/mobile-automation/tr-otm-android/browerstack-runner/android.parallel.runner.xml" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

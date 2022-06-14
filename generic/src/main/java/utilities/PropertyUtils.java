@@ -23,6 +23,8 @@ public class PropertyUtils {
         return prop;
     }
 
+
+
     public static Properties readProp() throws IOException {
         file = new FileInputStream(System.getProperty("user.dir")+"generic/src/main/recourses/global.properties");
         prop =new Properties();

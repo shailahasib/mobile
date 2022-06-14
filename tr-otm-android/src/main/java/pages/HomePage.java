@@ -24,7 +24,7 @@ public class HomePage  {
 
     public void clickPref(){
         //u.click(preferences);
-        //preferences.click();
+        preferences.click();
     }
 
 }
