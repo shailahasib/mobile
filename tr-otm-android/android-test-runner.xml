@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" >
+<!--    <listeners>-->
+<!--        <listener class-name="listeners.ExtentReportListener"></listener>-->
+<!--    </listeners>-->
+    <test name="Pixel3">
+        <parameter name="platform" value="android"></parameter>
+        <parameter name="executionMode" value="emulator"></parameter>
+        <classes>
+            <class name="HomePageTest"/>
+        </classes>
+    </test>
+
+</suite>
