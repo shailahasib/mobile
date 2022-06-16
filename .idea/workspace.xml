@@ -5,48 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16e2ebf4-8ea0-4514-a034-9dceb479d420" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/generic/src/main/java/devicefactory/AndroidBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generic/src/main/java/devicefactory/AppiumServerSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generic/src/main/java/devicefactory/IOSBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generic/src/main/java/listeners/ExtentReportListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generic/src/main/java/utilities/ConfigData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generic/src/main/java/utilities/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generic/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tr-otm-android/android-test-runner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tr-otm-ios/ios-test-runner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tr-otm-ios/src/main/java/SomeApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tr-otm-ios/src/test/java/SomeAppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/src/main/java/android/AndroidBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/src/main/java/android/browserstackconfig/BrowserStackSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/main/java/browserstack/BrowserStackSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/src/main/java/devicefactory/DeviceFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/src/main/java/devicefactory/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/main/java/devicefactory/DriverThreadManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/src/main/java/ios/IOSBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/src/main/java/utilities/PropertyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/generic/src/main/java/utilities/PropertyUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/src/main/java/utilities/Reusable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/src/main/resources/android.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/target/classes/android.config/parallel.conf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/target/classes/android.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/target/classes/android/AndroidBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/target/classes/browserstackconfig/BrowserStackSetup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/target/classes/devicefactory/DeviceFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/target/classes/devicefactory/DriverManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/target/classes/ios/IOSBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/target/classes/utilities/PropertyUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/target/classes/utilities/Reusable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/target/generic-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tr-otm-android/browerstack-runner/android.parallel.runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tr-otm-android/android-browserstack.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tr-otm-android/local-runner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tr-otm-android/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tr-otm-android/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tr-otm-android/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/tr-otm-android/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tr-otm-android/src/test/java/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tr-otm-android/src/test/java/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tr-otm-android/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/tr-otm-android/target/classes/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tr-otm-android/target/test-classes/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/tr-otm-android/target/test-classes/HomePageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tr-otm-ios/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tr-otm-ios/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
